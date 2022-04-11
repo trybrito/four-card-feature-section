@@ -1,0 +1,30 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins";
+
+main {
+  @include mixins.default-align();
+
+  flex-direction: column;
+
+  div.hero {
+    h1 {
+      text-align: center;
+      font-weight: 200;
+      line-height: 2.5rem;
+    }
+
+    p {
+      margin-top: 1rem;
+      width: 31.25rem;
+      text-align: center;
+    }
+  }
+
+  & > div:last-child {
+    margin-top: 3.75rem;
+
+    @include mixins.default-align();
+
+    gap: 1.75rem;
+  }
+}

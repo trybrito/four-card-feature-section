@@ -1,0 +1,36 @@
+@use "../../styles/variables" as *;
+
+section {
+  width: 23.75rem;
+  padding: 1.75rem 2rem;
+  border-top: 5px solid;
+  box-shadow: 0 12px 20px rgba(darken($blue, 30), 0.15);
+  border-radius: 5px;
+
+  p {
+    margin-top: 0.75rem;
+    margin-bottom: 2.5rem;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+  }
+
+  & + section {
+    margin-top: 1.75rem;
+  }
+}
+
+$colors: (
+  cyan: $cyan,
+  red: $red,
+  orange: $orange,
+  blue: $blue,
+);
+
+@each $key, $value in $colors {
+  .#{$key}-card {
+    border-color: $value;
+  }
+}
