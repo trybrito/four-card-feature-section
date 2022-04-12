@@ -7,6 +7,10 @@ section {
   box-shadow: 0 12px 20px rgba(darken($blue, 30), 0.15);
   border-radius: 5px;
 
+  h2 {
+    font-size: 1.40625rem;
+  }
+
   p {
     margin-top: 0.75rem;
     margin-bottom: 2.5rem;
@@ -15,6 +19,8 @@ section {
   img {
     display: block;
     margin-left: auto;
+    width: 4rem;
+    height: 4rem;
   }
 
   & + section {

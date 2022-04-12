@@ -22,59 +22,38 @@ export default function Home() {
 
       <div>
         <Card
+          cardColor="cyan"
           title="Supervisor"
           subtitle="Monitors activity to identify project roadblocks"
           imageUrl={SupervisorIcon}
           altText="Lupa. Ilustração de uma lupa com um olho humano ao contro."
-          color="cyan"
         />
+
         <div>
           <Card
+            cardColor="red"
             title="Team Builder"
             subtitle="Scans our talent network to create the optimal team for your project"
             imageUrl={TeamBuilderIcon}
             altText="Homepage. Ilustração de uma casa vermelha sobre uma página da Web de cor cinza."
-            color="red"
           />
           <Card
+            cardColor="orange"
             title="Karma"
             subtitle="Regularly evaluates our talent to ensure quality"
             imageUrl={KarmaIcon}
             altText="Lâmpada brilhante com uma engrenagem ao centro. Ilustração."
-            color="orange"
           />
         </div>
+
         <Card
+          cardColor="blue"
           title="Calculator"
           subtitle="Uses data from past projects to provide better delivery estimates"
           imageUrl={CalculatorIcon}
           altText="Gráficos em um monitor de computador. Ilustração."
-          color="blue"
         />
       </div>
-
-      {/*   
-      <footer>
-        <p>
-          Challenge by&nbsp;
-          <a
-            href="https://www.frontendmentor.io?ref=challenge"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Frontend Mentor
-          </a>
-          . Coded by&nbsp;
-          <a
-            href="https://www.github.com/trybrito"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Thiago Raniery Brito
-          </a>
-          .
-        </p>
-      </footer> */}
     </main>
   );
 }
