@@ -10,13 +10,14 @@ main {
     h1 {
       text-align: center;
       font-weight: 200;
-      font-size: 1.875rem;
-      line-height: 2.5rem;
+      font-size: 2.25rem;
+      line-height: 3rem;
     }
 
     p {
       text-align: center;
-      margin: 1rem auto 0;
+      margin: 1.25rem auto 0;
+      line-height: 1.5rem;
       width: 31.25rem;
     }
   }
@@ -27,5 +28,79 @@ main {
     @include mixins.default-align();
 
     gap: 1.75rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  main {
+    > div:last-child {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  main {
+    div.hero {
+      h1 {
+        font-size: 1.875rem;
+        line-height: 2.1875rem;
+      }
+
+      p {
+        margin: 1rem auto 0;
+        width: 25rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 445px) {
+  main {
+    div.hero {
+      h1 {
+        font-size: 1.625rem;
+      }
+
+      p {
+        width: 21.25rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  main {
+    div.hero {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        width: 20rem;
+      }
+    }
+
+    > div:last-child {
+      margin-top: 4.75rem;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  main {
+    div.hero {
+      h1 {
+        font-size: 1.3125rem;
+      }
+
+      p {
+        width: 16.5rem;
+      }
+    }
+
+    > div:last-child {
+      margin-top: 3.75rem;
+    }
   }
 }

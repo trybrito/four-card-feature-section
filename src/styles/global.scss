@@ -13,11 +13,29 @@ body {
   font-weight: 400;
   background-color: $lighten-gray;
   color: $grayish-blue;
-  padding: 3rem 4rem;
+  padding: 5rem 2rem;
   min-height: 100vh;
 }
 
 strong,
 h2 {
   color: $darken-blue;
+}
+
+@media (max-width: 1220px) {
+  html {
+    font-size: 87.5%; // 14px -> because we're using 15px for the body texts
+  }
+}
+
+@media (max-width: 1070px) {
+  html {
+    font-size: 85.9375%; // 13.75px
+  }
+}
+
+@media (max-width: 490px) {
+  html {
+    font-size: 100%; // 16px
+  }
 }
