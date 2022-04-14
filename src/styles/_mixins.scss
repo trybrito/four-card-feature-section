@@ -3,3 +3,8 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin center-paragraph($height) {
+  text-align: center;
+  line-height: $height;
+}

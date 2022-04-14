@@ -2,23 +2,25 @@
 @use "../../styles/mixins";
 
 main {
+  animation: slide-down 2.25s cubic-bezier(0.23, 1, 0.32, 1);
+
   @include mixins.default-align();
 
   flex-direction: column;
 
   div.hero {
     h1 {
-      text-align: center;
       font-weight: 200;
       font-size: 2.25rem;
-      line-height: 3rem;
+
+      @include mixins.center-paragraph(3rem);
     }
 
     p {
-      text-align: center;
       margin: 1.25rem auto 0;
-      line-height: 1.5rem;
       width: 31.25rem;
+
+      @include mixins.center-paragraph(1.5rem);
     }
   }
 
@@ -28,6 +30,16 @@ main {
     @include mixins.default-align();
 
     gap: 1.75rem;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-100%);
   }
 }
 
@@ -44,7 +56,7 @@ main {
     div.hero {
       h1 {
         font-size: 1.875rem;
-        line-height: 2.1875rem;
+        line-height: 2.5rem;
       }
 
       p {
@@ -60,6 +72,7 @@ main {
     div.hero {
       h1 {
         font-size: 1.625rem;
+        line-height: 2.3125rem;
       }
 
       p {
@@ -74,6 +87,7 @@ main {
     div.hero {
       h1 {
         font-size: 1.5rem;
+        line-height: 2.25rem;
       }
 
       p {

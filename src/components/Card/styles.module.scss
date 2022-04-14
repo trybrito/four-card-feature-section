@@ -1,4 +1,26 @@
 @use "../../styles/variables" as *;
+@use "sass:color";
+
+$colors: (
+  "cyan": $cyan,
+  "red": $red,
+  "orange": $orange,
+  "blue": $blue,
+);
+
+@each $key, $value in $colors {
+  section.#{$key}-card {
+    border-color: $value;
+    transition-duration: 0.5s;
+
+    &:hover {
+      border-color: color.adjust(
+        $value,
+        $lightness: -10%
+      ); // Sass is beautiful '-'
+    }
+  }
+}
 
 section {
   width: 23rem;
@@ -6,6 +28,10 @@ section {
   border-top: 5px solid;
   box-shadow: 0 12px 14px rgba(darken($blue, 30), 0.15);
   border-radius: 5px;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   h2 {
     font-size: 1.3125rem;
@@ -23,23 +49,16 @@ section {
     margin-left: auto;
     width: 4rem;
     height: 4rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   & + section {
     margin-top: 1.75rem;
-  }
-}
-
-$colors: (
-  "cyan": $cyan,
-  "red": $red,
-  "orange": $orange,
-  "blue": $blue,
-);
-
-@each $key, $value in $colors {
-  .#{$key}-card {
-    border-color: $value;
   }
 }
 
@@ -51,6 +70,8 @@ $colors: (
 
 @media (max-width: 490px) {
   section {
+    padding: 1.375rem 1.75rem;
+
     h2 {
       font-size: 1.1875rem;
     }

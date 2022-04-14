@@ -14,7 +14,33 @@ body {
   background-color: $lighten-gray;
   color: $grayish-blue;
   padding: 5rem 2rem;
-  min-height: 100vh;
+  min-height: 101vh; // because I want the scrollbar to be visible even when there is no content yet.
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: $lighten-gray;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $grayish-blue;
+    border-radius: 99px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: darken($grayish-blue, 15);
+  }
+
+  &::-webkit-scrollbar-thumb:active {
+    background-color: lighten($darken-blue, 5);
+  }
+
+  ::selection {
+    background-color: lighten($darken-blue, 5);
+    color: $lighten-gray;
+  }
 }
 
 strong,
