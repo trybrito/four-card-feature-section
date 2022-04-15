@@ -39,6 +39,7 @@ Os usuários da aplicação devem ser capazes de:
   - Utilização das melhores práticas para acessibilidade e, em certo nível, SEO.
 - [Sass](https://sass-lang.com/);
   - Flexbox, animações e efeitos de estado (hover) com transform;
+  - Encadeamento de seletores;
   - Criação e importação de partials com @use;
   - Reutilização de estilos com Mixins; e
   - Uso do módulo interno "color" para ajuste das cores da aplicação, quando necessário.
