@@ -38,8 +38,7 @@ Os usuários da aplicação devem ser capazes de:
   - Estruturação; e
   - Utilização das melhores práticas para acessibilidade e, em certo nível, SEO.
 - [Sass](https://sass-lang.com/);
-  - Flexbox;
-  - Animações e efeitos de estado (hover) com transform;
+  - Flexbox, animações e efeitos de estado (hover) com transform;
   - Criação e importação de partials com @use;
   - Reutilização de estilos com Mixins; e
   - Uso do módulo interno "color" para ajuste das cores da aplicação, quando necessário.
@@ -53,16 +52,14 @@ Os usuários da aplicação devem ser capazes de:
 - [Commitizen](https://github.com/commitizen/cz-cli); e
   - Criação de mensagens de commit baseadas no [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog).
 - [Commitlint](https://commitlint.js.org/#/).
-  - Validação, anteriormente ao seu salvamento, das mensagens de commit.
+  - Validação, anteriormente ao salvamento, das mensagens de commit.
 
 ---
 
 ## Autor
 
-<center>
-  <img src="https://github.com/trybrito.png" width="250px" />
-
-  <br />
+<div>
+  <img src="https://github.com/trybrito.png" width="150px" />
 
   <div>
     <h3>
@@ -85,6 +82,6 @@ Os usuários da aplicação devem ser capazes de:
     <a href="mailto:thiagobritotrs@gmail.com" rel="nofollow">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
   </div>
-</center>
+</div>
 
 ---
