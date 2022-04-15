@@ -10,7 +10,7 @@ Solução do [desafio](https://www.frontendmentor.io/challenges/four-card-featur
   - [O desafio](#o-desafio)
   - [Demonstração](#demonstração)
 - [Desenvolvimento](#desenvolvimento)
-  - [Construído com](#contruído-com)
+  - [Construído com](#construído-com)
 - [Autor](#autor)
 
 ---
@@ -59,7 +59,7 @@ Os usuários da aplicação devem ser capazes de:
 ## Autor
 
 <div>
-  <img src="https://github.com/trybrito.png" width="150px" />
+  <img src="https://github.com/trybrito.png" width="100px" />
 
   <div>
     <h3>
