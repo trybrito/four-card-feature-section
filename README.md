@@ -15,15 +15,15 @@ Solução do [desafio](https://www.frontendmentor.io/challenges/four-card-featur
 
 ---
 
-## 🕵🏽‍♂️ Visão Geral
+## 🔎 Visão Geral
 
-### 🎯 O Desafio
+### O Desafio 🎯
 
 Os usuários da aplicação devem ser capazes de:
 
 - Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo.
 
-### 🖥️ Demonstração
+### Demonstração 🖥️
 
 ![](./.github/demo.png)
 
@@ -31,7 +31,7 @@ Os usuários da aplicação devem ser capazes de:
 
 ## 🕹️ Desenvolvimento
 
-### 🔮 Construído com
+### Construído com 🔮
 
 - [HTML5](https://devdocs.io/html/);
   - Semântica;
