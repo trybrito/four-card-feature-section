@@ -59,7 +59,7 @@ Os usuários da aplicação devem ser capazes de:
 ## 👨🏽‍🎓 Autor
 
 <div>
-  <img src="https://github.com/trybrito.png" width="125px" />
+  <img src="https://github.com/trybrito.png" width="150px" />
 
   <div>
     <h3>
