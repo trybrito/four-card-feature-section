@@ -1,37 +1,37 @@
-# Four card feature section
+# ✨ Four card feature section
 
 Solução do [desafio](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) proposto pela plataforma Frontend Mentor.
 
 ---
 
-## Sumário
+## ✔️ Sumário
 
-- [Visão geral](#visão-geral)
-  - [O desafio](#o-desafio)
-  - [Demonstração](#demonstração)
-- [Desenvolvimento](#desenvolvimento)
-  - [Construído com](#construído-com)
-- [Autor](#autor)
+- [Visão geral](#-visão-geral)
+  - [O desafio](#-o-desafio)
+  - [Demonstração](#-demonstração)
+- [Desenvolvimento](#-desenvolvimento)
+  - [Construído com](#-construído-com)
+- [Autor](#-autor)
 
 ---
 
-## Visão Geral
+## 🕵🏽‍♂️ Visão Geral
 
-### O Desafio
+### 🎯 O Desafio
 
 Os usuários da aplicação devem ser capazes de:
 
 - Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo.
 
-### Demonstração
+### 💻 Demonstração
 
 ![](./.github/demo.png)
 
 ---
 
-## Desenvolvimento
+## 🕹️ Desenvolvimento
 
-### Construído com
+### 🔮 Construído com
 
 - [HTML5](https://devdocs.io/html/);
   - Semântica;
@@ -56,7 +56,7 @@ Os usuários da aplicação devem ser capazes de:
 
 ---
 
-## Autor
+## 👨🏽‍🎓 Autor
 
 <div>
   <img src="https://github.com/trybrito.png" width="125px" />
