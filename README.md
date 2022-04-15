@@ -23,7 +23,7 @@ Os usuários da aplicação devem ser capazes de:
 
 - Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo.
 
-### 💻 Demonstração
+### 🖥️ Demonstração
 
 ![](./.github/demo.png)
 
