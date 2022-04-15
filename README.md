@@ -8,7 +8,7 @@ Solução do [desafio](https://www.frontendmentor.io/challenges/four-card-featur
 
 - [Visão geral](#-visão-geral)
   - [O desafio](#o-desafio-)
-  - [Demonstração](#demonstração-)
+  - [Demonstração](#demonstração-%EF%B8%8F)
 - [Desenvolvimento](#%EF%B8%8F-desenvolvimento)
   - [Construído com](#construído-com-)
 - [Autor](#-autor)
