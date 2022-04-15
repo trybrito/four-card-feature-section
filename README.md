@@ -7,10 +7,10 @@ Solução do [desafio](https://www.frontendmentor.io/challenges/four-card-featur
 ## ✔️ Sumário
 
 - [Visão geral](#-visão-geral)
-  - [O desafio](#o-desafio)
-  - [Demonstração](#demonstração)
+  - [O desafio](#o-desafio-)
+  - [Demonstração](#demonstração-)
 - [Desenvolvimento](#%EF%B8%8F-desenvolvimento)
-  - [Construído com](#construído-com)
+  - [Construído com](#construído-com-)
 - [Autor](#-autor)
 
 ---
