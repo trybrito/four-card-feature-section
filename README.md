@@ -21,7 +21,7 @@ Solução do [desafio](https://www.frontendmentor.io/challenges/four-card-featur
 
 Os usuários da aplicação devem ser capazes de:
 
-- Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo.
+- Visualizar o layout ideal para a aplicação, dependendo do tamanho da tela do dispositivo utilizado.
 
 ### Demonstração 🖥️
 
@@ -34,20 +34,20 @@ Os usuários da aplicação devem ser capazes de:
 ### Construído com 🔮
 
 - [HTML5](https://devdocs.io/html/);
-  - Semântica;
-  - Estruturação; e
-  - Utilização das melhores práticas para acessibilidade e, em certo nível, SEO.
+  - Semântica e estruturação; e
+  - Utilização, até certo ponto (devido a algumas limitações impostas pelo próprio design), das melhores práticas para acessibilidade;
 - [Sass](https://sass-lang.com/);
-  - Flexbox, animações e efeitos de estado (hover) com transform;
+  - Flexbox, animações 3D e efeitos de estado com transform;
   - Encadeamento de seletores;
   - Criação e importação de partials com @use;
-  - Reutilização de estilos com Mixins; e
-  - Uso do módulo interno "color" para ajuste das cores da aplicação, quando necessário.
+  - Reutilização de estilos com Mixins e Includes;
+  - Uso do módulo interno "color" para ajuste das cores da aplicação, quando necessário; e
+  - Responsividade sob a óptica do desktop-first.
 - [TypeScript](https://www.typescriptlang.org/);
   - Variáveis, parâmetros e retornos de função 100% tipados.
 - [ReactJS](https://reactjs.org/);
   - Utilização de Componentes; e
-  - Atribuição de valores dinâmicos, através das Propriedades, aos Componentes.
+  - Atribuição de valores dinâmicos, através das Propriedades, para os Componentes.
 - [Husky](https://typicode.github.io/husky/#/);
   - Interceptação de ações executadas pelo Git com os Git Hooks.
 - [Commitizen](https://github.com/commitizen/cz-cli); e
